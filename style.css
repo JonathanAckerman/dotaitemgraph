@@ -2,18 +2,21 @@
 
 #options
 {
+    display: grid;
     grid-column: col 1 / span 6;
     grid-row: row 1 / span 2;
 }
 
 #items
 {
+    display: grid;
     grid-column: col 1 / span 4;
     grid-row: row 1 / span 2;
 }
 
 #canvas
 {
+    display: grid;
     grid-column: col 1 / span 10;
     grid-row: auto / span 8;
 }
