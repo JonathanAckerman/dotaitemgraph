@@ -2,19 +2,19 @@
 
 #options
 {
-    grid-column: auto / span 6;
+    grid-column: col 1 / span 6;
     grid-row: row 1 / span 2;
 }
 
 #items
 {
-    grid-column: auto / span 4;
+    grid-column: col 1 / span 4;
     grid-row: row 1 / span 2;
 }
 
 #canvas
 {
-    grid-column: auto / span 10;
+    grid-column: col 1 / span 10;
     grid-row: auto / span 8;
 }
 
@@ -27,22 +27,22 @@
 
 /* Visual */
 
-#container
+.black
 {
-    background-color: black;
+    background-color: #000;
 }
 
-#options
+.red
 {
-    background-color: red;
+    background-color: #F00;
 }
 
-#items
+.blue
 {
-    background-color: blue;
+    background-color: #0F0;
 }
 
-#canvas
+.green
 {
-    background-color: green;
+    background-color: #00F;
 }
