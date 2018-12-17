@@ -2,22 +2,47 @@
 
 #options
 {
+    grid-column: auto / span 6;
+    grid-row: row 1 / span 2;
 }
 
 #items
 {
+    grid-column: auto / span 4;
+    grid-row: row 1 / span 2;
 }
 
 #canvas
 {
+    grid-column: auto / span 10;
+    grid-row: auto / span 8;
 }
 
 #container
 {
     display: grid;
-    grid-template-columns: 10fr 4fr;
-    grid-template-rows: 1fr 10fr;
+    grid-template-columns: repeat(10, [col] 10%);
+    grid-template-rows: repeat(10, [row] 10%);
 }
 
 /* Visual */
 
+#container
+{
+    background-color: black;
+}
+
+#options
+{
+    background-color: red;
+}
+
+#items
+{
+    background-color: blue;
+}
+
+#canvas
+{
+    background-color: green;
+}
