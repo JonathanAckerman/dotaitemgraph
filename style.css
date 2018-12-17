@@ -33,23 +33,24 @@
 .black
 {
     background-color: #000;
-    color: #FFF;
 }
 
 .red
 {
     background-color: #F00;
-    color: #FFF;
 }
 
 .blue
 {
     background-color: #0F0;
-    color: #FFF;
 }
 
 .green
 {
     background-color: #00F;
+}
+
+p
+{
     color: #FFF;
 }
