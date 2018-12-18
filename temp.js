@@ -63,11 +63,8 @@ function compare(lhs, rhs)
 	{
 		if (left[letterIter] != right[letterIter])
         {
-            ++count;
+            return letterIter;
         }
 	}
-    if (count <= 2)
-	    return len;
-    else
-        return -1;
+    return len;
 }
