@@ -2,8 +2,9 @@
     <head>
         <title>Dota Item Graph</title>
         <link rel="stylesheet" href="style.css">
+        <script src="temp.js"></script>
     </head>
-    <body id="container" class="black">
+    <body onload="getitems()" id="container" class="black">
         <div id="banner" class="purple">
             <div id="logo">
                 <h1>Dota Item Graph</h1>
@@ -21,9 +22,9 @@
             </div>
         </div>
         <div id="items" class="blue">
-            <form action="./cgi-bin/getitems.py" method="GET">
-                <p>Click here: <button type="submit">Get Items Test</button>
-            </form>
+			<div id="item-search">
+				<input oninput="highlightItem(this.value)" type="text"/>Search
+			</div>
         </div>
         <div id="canvas" class="green">
             <p>test canvas</p>
