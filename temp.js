@@ -58,14 +58,16 @@ function compare(lhs, rhs)
 	else
 		len = right.length;
 
+    var count = 0;
 	for (letterIter = 0; letterIter < len; ++letterIter)
 	{
 		if (left[letterIter] != right[letterIter])
         {
-            if (left.length - (letterIter + 1) <= 2)
-			    return letterIter;
+            ++count;
         }
 	}
-
-	return len;
+    if (count <= 2)
+	    return len;
+    else
+        return -1;
 }
