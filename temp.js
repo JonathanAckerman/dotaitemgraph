@@ -1,4 +1,4 @@
-var gItemList = ["Blink Dagger", "Heart", "TP"];
+var gItemList = ["Blink Dagger", "Heart", "Hurricane Pike", "TP"];
 var gHighlighted = [];
 
 function getitems()
